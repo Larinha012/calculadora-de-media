@@ -6,7 +6,8 @@ function calculaMedia(){
   const nota1 = Number(numero1.value)
   const nota2 = Number(numero2.value)
 
-  console.log(nota1+nota2)
+ const media = (nota1+nota2)/2
+ console.log(media)
 }
 
 button.addEventListener("click", calculaMedia)
