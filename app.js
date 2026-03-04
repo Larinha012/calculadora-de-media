@@ -8,7 +8,7 @@ function calculaMedia(){
   const nota2 = Number(numero2.value)
 
  const media = (nota1+nota2)/2
- resultado.innerText = `A MÉDIA É ${media}`
+ resultado.innerText = `A MÉDIA É ${media.toFixed(2)}`
 }
 
 button.addEventListener("click", calculaMedia)
